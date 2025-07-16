@@ -7,9 +7,6 @@ import (
 	"github.com/NeginSal/job-tracker-api/pkg/db"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
-
-	"job-tracker-api/internal/user"
-	"job-tracker-api/pkg/db"
 )
 
 func main() {
