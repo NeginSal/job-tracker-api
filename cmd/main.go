@@ -24,6 +24,7 @@ func main() {
 
 	r := gin.Default()
 	r.POST("/register", userHandler.Register)
+  r.POST("/login",userHandler.Login)
 
 	log.Println("Server running at http://localhost:8080")
 	r.Run(":8080")
